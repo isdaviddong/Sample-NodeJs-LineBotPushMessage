@@ -14,5 +14,5 @@ client.pushMessage('________UserID__________', message)
     console.log("done.");
   })
   .catch((err) => {
-    // error handling
+    console.log("error : " + err);
   });
